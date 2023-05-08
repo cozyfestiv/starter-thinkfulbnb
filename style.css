@@ -170,6 +170,22 @@ footer p {
     
   }
 
+  form input {
+    width: 100%;
+  }
+
+  form .item {
+    width: 20%;
+  }
+
+  form select {
+    width: 100%
+  }
+
+  form button {
+    width: 100%
+  }
+
   .group {
     display: flex;
     flex-direction: row;
@@ -178,8 +194,8 @@ footer p {
   
   .item {
     flex: 1;
-    margin: 10px;
     align-items:center;
+    justify-content: center;
     flex-wrap: wrap;
   }
   
